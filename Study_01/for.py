@@ -77,6 +77,12 @@ for num in range(1, 11):  # 1부터 10까지 반복
 
 print(f"1부터 10까지의 곱한 값은 {total}입니다.")
 
+#for롸 리스트 인덱스를 사용해 roses의 '하얀장미'를 모두 '빨간장미'로 바꾸기
+roses = ['하얀장미','하얀장미','하얀장미']
+for i in range(3):
+    roses[i] = '빨간장미'
+print(roses)
+
 
 
 
