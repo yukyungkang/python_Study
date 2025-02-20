@@ -1,4 +1,6 @@
 #괄호 안에 있는 것을 출력해줘 print는 전체는 소문자로 쓰는것으로 약속
+from numpy.ma.core import append
+
 print('Hello World!')
 
 #괄호 안에 있는 내용이 한글로도 가능(+기호도 숫자도 가능하다)
@@ -179,8 +181,13 @@ alice_blue = (240, 248, 255)
 r,g,b = alice_blue
 print('R:', r, 'G:', g, 'B:', b) #각각의 변수에 숫자가 들어가는 언패킹
 
-
-
+#dodo에는 박하맛 alice에는 딸기맛을 저장
+#패킹과 언패킹을 사용해 둘의 사탕을 교환하자
+dodo = '박하맛'
+alice = '딸기맛'
+print('도도새:', dodo, '앨리스:', alice)
+dodo, alice = alice, dodo
+print('도도새:', dodo, '앨리스:', alice)
 
 
 
