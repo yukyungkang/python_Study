@@ -13,41 +13,50 @@
         }
         nav {
             background-color: #333;
-            padding: 10px;
+            padding: 15px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
         }
-        nav a {
+        nav .logo {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        nav .menu {
+            display: flex;
+        }
+        nav .menu a {
             color: white;
             text-decoration: none;
             padding: 10px 20px;
             display: inline-block;
         }
-        nav a:hover {
+        nav .menu a:hover {
             background-color: #555;
         }
         .content {
-            padding: 20px;
-        }
-        .hidden {
-            display: none;
+            padding: 80px 20px;
         }
     </style>
 </head>
 <body>
     <nav>
-        <a href="basic.html">기본</a>
-        <a href="list.html">리스트</a>
+        <div class="logo">Python Study</div>
+        <div class="menu">
+            <a href="basic.html">기본</a>
+            <a href="#list">리스트</a>
+        </div>
     </nav>
 
     <div id="home" class="content">
         <h1>Python Study</h1>
         <p>파이썬 공부를 위한 기본 페이지입니다.</p>
     </div>
-    <script>
-        function showContent(id) {
-            document.getElementById('home').classList.add('hidden');
-            document.getElementById('list').classList.add('hidden');
-            document.getElementById(id).classList.remove('hidden');
-        }
-    </script>
 </body>
 </html>
