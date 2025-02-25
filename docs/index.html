@@ -30,6 +30,7 @@
         }
         nav .menu {
             display: flex;
+            gap: 10px;
         }
         nav .menu a {
             color: white;
@@ -40,14 +41,44 @@
         nav .menu a:hover {
             background-color: #555;
         }
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
         .content {
             padding: 80px 20px;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .menu {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                background-color: #444;
+            }
+            .menu a {
+                padding: 15px;
+                text-align: center;
+                width: 100%;
+            }
+            .menu-toggle {
+                display: block;
+                align-self: flex-end;
+            }
         }
     </style>
 </head>
 <body>
     <nav>
         <div class="logo">Python Study</div>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <div class="menu">
             <a href="basic.html">기본</a>
             <a href="#list">리스트</a>
@@ -58,5 +89,12 @@
         <h1>Python Study</h1>
         <p>파이썬 공부를 위한 기본 페이지입니다.</p>
     </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
 </body>
 </html>
