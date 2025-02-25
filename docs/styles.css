@@ -26,7 +26,7 @@ nav .logo {
 
 nav .menu {
     display: flex;
-    gap: 10px;
+    gap: 20px; /* 메뉴 간 여백 추가 */
 }
 
 nav .menu a {
