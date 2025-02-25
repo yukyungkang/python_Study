@@ -27,7 +27,7 @@ nav .logo {
 nav .menu {
     display: flex;
     justify-content: center; /* 중앙 정렬 */
-    flex-grow: 1; /* 메뉴가 가능한 공간을 차지하도록 설정 */
+    flex-grow: 20; /* 메뉴가 가능한 공간을 차지하도록 설정 */
     gap: 40px; /* 메뉴 간 여백 추가 */
 }
 
