@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e50c56e-725a-440d-b799-0588a88be205" name="변경" comment="유기농냠냠파이썬 27강까지 정리&#10; + basic.py 내용 다듬">
-      <change afterPath="$PROJECT_DIR$/Study_01/list.py" afterDir="false" />
+    <list default="true" id="2e50c56e-725a-440d-b799-0588a88be205" name="변경" comment="자동 커밋: 변경 사항 반영">
+      <change afterPath="$PROJECT_DIR$/Web/list_learning.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study_01/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study_01/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +188,8 @@
     <MESSAGE value="파이썬 공부 시작" />
     <MESSAGE value="한입 파이썬 강의 끝" />
     <MESSAGE value="유기농냠냠파이썬 27강까지 정리&#10; + basic.py 내용 다듬" />
-    <option name="LAST_COMMIT_MESSAGE" value="유기농냠냠파이썬 27강까지 정리&#10; + basic.py 내용 다듬" />
+    <MESSAGE value="유기농냠냠파이썬 30강까지 정리&#10; + 리스트 관련 내용 별도의 list.py로 만듬" />
+    <MESSAGE value="자동 커밋: 변경 사항 반영" />
+    <option name="LAST_COMMIT_MESSAGE" value="자동 커밋: 변경 사항 반영" />
   </component>
 </project>
