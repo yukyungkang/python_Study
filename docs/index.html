@@ -9,6 +9,7 @@
 <body>
     <nav>
         <div class="logo">Python Study</div>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <div class="menu-container">
             <div class="menu">
                 <a href="basic.html">기본</a>
@@ -25,7 +26,9 @@
     <script>
         function toggleMenu() {
             const menu = document.querySelector('.menu');
-            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+            if (window.innerWidth <= 768) {
+                menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+            }
         }
     </script>
 </body>
