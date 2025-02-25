@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    max-width: 100%; /* 최대 화면 크기 제한 해제 */
 }
 
 nav {
@@ -16,6 +17,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
+    max-width: 100%; /* 네비게이션도 최대 크기 제한 해제 */
 }
 
 nav .logo {
@@ -27,7 +29,7 @@ nav .logo {
 nav .menu {
     display: flex;
     justify-content: center; /* 중앙 정렬 */
-    flex-grow: 20; /* 메뉴가 가능한 공간을 차지하도록 설정 */
+    flex-grow: 1; /* 메뉴가 가능한 공간을 차지하도록 설정 */
     gap: 40px; /* 메뉴 간 여백 추가 */
 }
 
@@ -53,6 +55,7 @@ nav .menu a:hover {
 
 .content {
     padding: 80px 20px;
+    max-width: 100%; /* 컨텐츠 최대 크기 제한 해제 */
 }
 
 @media (max-width: 600px) {
