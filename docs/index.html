@@ -4,76 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Python Study</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            padding: 15px 20px;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            left: 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            z-index: 1000;
-        }
-        nav .logo {
-            color: white;
-            font-size: 20px;
-            font-weight: bold;
-        }
-        nav .menu {
-            display: flex;
-            gap: 10px;
-        }
-        nav .menu a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            display: inline-block;
-        }
-        nav .menu a:hover {
-            background-color: #555;
-        }
-        .menu-toggle {
-            display: none;
-            background: none;
-            border: none;
-            color: white;
-            font-size: 20px;
-            cursor: pointer;
-        }
-        .content {
-            padding: 80px 20px;
-        }
-        @media (max-width: 600px) {
-            nav {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .menu {
-                display: none;
-                flex-direction: column;
-                width: 100%;
-                background-color: #444;
-            }
-            .menu a {
-                padding: 15px;
-                text-align: center;
-                width: 100%;
-            }
-            .menu-toggle {
-                display: block;
-                align-self: flex-end;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
