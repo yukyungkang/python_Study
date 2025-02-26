@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e50c56e-725a-440d-b799-0588a88be205" name="변경" comment="홈페이지 만들기 2/25 오늘은 여기까지!!!">
-      <change afterPath="$PROJECT_DIR$/use.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/25__2__18___6_30__________.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study_01/True&amp;False.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/True&amp;False.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study_01/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/basic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study_01/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study_01/for.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/for.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study_01/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study_01/if.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/if.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study_01/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study_01/tuple&amp;dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/tuple&amp;dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study_01/while.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/while.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +56,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/yukyung.kang/python_Study/docs",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -252,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740480707856</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="홈페이지 만들기 2/25 오늘은 여기까지!!!">
+      <option name="closed" value="true" />
+      <created>1740555415797</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740555415797</updated>
+    </task>
+    <task id="LOCAL-00016" summary="홈페이지 만들기 2/25 오늘은 여기까지!!!">
+      <option name="closed" value="true" />
+      <created>1740555424249</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740555424249</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
