@@ -1,0 +1,2 @@
+Ctrl + Alt + L → 자동 코드 포맷팅
+Alt + Shift + Enter → 문장 자동 정렬

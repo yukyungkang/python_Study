@@ -44,9 +44,9 @@ print(candies)
 # - 요소들은 **0부터 시작하는 인덱스(index)**를 가진다.
 
 # ✅ 리스트 예제
-my_list1 = []           # 빈 리스트 (값이 없음)
-my_list2 = [1, 2, 3]    # 숫자 리스트
-my_list3 = ['a', 'b']   # 문자열 리스트
+my_list1 = []  # 빈 리스트 (값이 없음)
+my_list2 = [1, 2, 3]  # 숫자 리스트
+my_list3 = ['a', 'b']  # 문자열 리스트
 my_list4 = [[1, 2], [3, 4]]  # 리스트 안에 리스트 포함 가능 (이중 리스트)
 
 # ✅ 빈 리스트(Empty List)의 필요성
@@ -76,8 +76,8 @@ my_list = []  # 빈 리스트 생성 (마치 '빈 냄비'처럼)
 my_list = []  # 빈 리스트 생성
 
 # 리스트에 다양한 자료형 추가
-my_list.append(123)   # 정수 추가
-my_list.append('abc') # 문자열 추가
+my_list.append(123)  # 정수 추가
+my_list.append('abc')  # 문자열 추가
 my_list.append(True)  # 논리형 (Boolean) 추가
 
 # ✅ 리스트에 추가된 값 확인
@@ -113,7 +113,6 @@ print(my_list)  # 출력: ['a', 'd', 'e']
 # ✅ del 키워드로 리스트 전체 삭제
 # - `del 리스트이름`을 사용하면 리스트 자체를 삭제할 수 있다.
 del my_list  # 리스트 자체 삭제 (더 이상 사용 불가)
-
 
 # ✅ 리스트에서 요소를 가져오기 (인덱싱)
 # - 리스트에서 특정 위치의 값을 가져오려면 `리스트이름[인덱스]` 형식으로 접근합니다.
@@ -154,9 +153,9 @@ print(my_list[2:])  # ['c'] (2번부터 끝까지)
 numbers = [10, 20, 30, 40, 50]
 
 print(numbers[1:4])  # [20, 30, 40] (1번부터 4번 전까지)
-print(numbers[:3])   # [10, 20, 30] (처음부터 3번 전까지)
-print(numbers[2:])   # [30, 40, 50] (2번부터 끝까지)
-print(numbers[:])    # [10, 20, 30, 40, 50] (전체 리스트 복사)
+print(numbers[:3])  # [10, 20, 30] (처음부터 3번 전까지)
+print(numbers[2:])  # [30, 40, 50] (2번부터 끝까지)
+print(numbers[:])  # [10, 20, 30, 40, 50] (전체 리스트 복사)
 print(numbers[-3:])  # [30, 40, 50] (뒤에서 3번째부터 끝까지)
 
 # ✅ 슬라이싱을 활용한 리스트 복사
@@ -178,7 +177,6 @@ my_list[-1] = False  # 마지막 요소(-1번 인덱스)를 False로 변경
 # ✅ 변경된 리스트 확인
 print(my_list)  # 출력: [3.14, 'ABC', False]
 
-
 # ✅ 예제: 리스트에서 요소 가져오기
 # - 리스트에서 특정 요소를 가져와 변수를 할당하고 사용할 수 있다.
 # - 리스트의 **슬라이싱(slicing)**을 이용하면 여러 개의 요소를 한 번에 가져올 수도 있다.
@@ -193,7 +191,6 @@ print('오리에게는', second_candy, '사탕을 줘요.')  # 출력: 오리에
 
 some_candies = my_list[2:5]  # 2번 ~ 4번 인덱스의 값 슬라이싱하여 저장
 print('도도새에게는', some_candies, '사탕을 줘요.')  # 출력: 도도새에게는 ['수박맛', '우유맛', '콜라맛'] 사탕을 줘요.
-
 
 # ✅ 리스트에 요소 추가 및 삭제하기
 # - `append(값)`: 리스트 **끝에 요소를 추가**하는 메소드
@@ -219,14 +216,14 @@ print(my_list)  # 출력: ['레몬맛', '콜라맛', '포도맛']
 # - 원본 리스트를 유지하면서 정렬된 새 리스트를 얻고 싶다면 `sorted()` 사용.
 
 # 숫자 정렬 예제
-my_list = [3, 2, 4, 1]   # 숫자 리스트
-my_list.sort()           # 오름차순 정렬 (1,2,3,4로 변경됨)
-print(my_list)           # 출력: [1, 2, 3, 4]
+my_list = [3, 2, 4, 1]  # 숫자 리스트
+my_list.sort()  # 오름차순 정렬 (1,2,3,4로 변경됨)
+print(my_list)  # 출력: [1, 2, 3, 4]
 
 # 문자열 정렬 예제
 my_list = ['c', 'b', 'd', 'a']  # 문자열 리스트
-my_list.sort()                   # 알파벳 순서로 정렬 (a,b,c,d로 변경됨)
-print(my_list)                   # 출력: ['a', 'b', 'c', 'd']
+my_list.sort()  # 알파벳 순서로 정렬 (a,b,c,d로 변경됨)
+print(my_list)  # 출력: ['a', 'b', 'c', 'd']
 
 # ✅ 다양한 정렬 방법 (sort() 옵션 활용)
 # 1. `reverse=True` → 내림차순 정렬
@@ -251,9 +248,9 @@ print(my_list)  # 출력: ['채셔고양이', '도도새', '오리']
 # - 원본 리스트를 유지하면서 정렬된 새 리스트를 얻고 싶다면 `sorted()` 사용.
 
 original = [3, 1, 4, 2]
-sorted_list = sorted(original)   # 원본을 유지하고 새 리스트 생성
-print(sorted_list)               # 출력: [1, 2, 3, 4]
-print(original)                  # 출력: [3, 1, 4, 2] (원본 유지됨)
+sorted_list = sorted(original)  # 원본을 유지하고 새 리스트 생성
+print(sorted_list)  # 출력: [1, 2, 3, 4]
+print(original)  # 출력: [3, 1, 4, 2] (원본 유지됨)
 
 # ✅ 리스트에서 특정 요소 개수 세기 (count 메소드)
 # - `count(값)` 메소드를 사용하면 리스트 내에서 해당 값이 몇 개 존재하는지 확인할 수 있습니다.
@@ -275,7 +272,7 @@ print(my_list.count('c'))  # 'c'의 개수 출력 (결과: 1)
 
 # 예제: 대량 데이터에서 특정 값 개수 세기
 big_list = ['apple'] * 1000 + ['banana'] * 500 + ['cherry'] * 250
-print(big_list.count('apple'))   # 'apple' 개수 출력 (결과: 1000)
+print(big_list.count('apple'))  # 'apple' 개수 출력 (결과: 1000)
 print(big_list.count('banana'))  # 'banana' 개수 출력 (결과: 500)
 print(big_list.count('cherry'))  # 'cherry' 개수 출력 (결과: 250)
 
