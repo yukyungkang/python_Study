@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e50c56e-725a-440d-b799-0588a88be205" name="변경" comment="홈페이지 만들기 2/25 오늘은 여기까지!!!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2e50c56e-725a-440d-b799-0588a88be205" name="변경" comment="✅ 텍스트 파일 수정">
+      <change beforePath="$PROJECT_DIR$/Study_01/tuple&amp;dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/tuple&amp;dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use.txt" beforeDir="false" afterPath="$PROJECT_DIR$/use.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +53,10 @@
     "Python.for.executor": "Run",
     "Python.function.executor": "Run",
     "Python.if.executor": "Run",
+    "Python.tuple&dictionary.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "main 병합 중",
     "last_opened_file_path": "/Users/yukyung.kang/python_Study/docs",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
@@ -67,7 +69,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.basic">
+  <component name="RunManager">
     <configuration name="basic" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python_ Study" />
       <option name="ENV_FILES" value="" />
@@ -257,7 +259,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740555424249</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="✅ 튜플 (Tuple)">
+      <option name="closed" value="true" />
+      <created>1740560979329</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740560979330</updated>
+    </task>
+    <task id="LOCAL-00018" summary="✅ 튜플 (Tuple)">
+      <option name="closed" value="true" />
+      <created>1740560989405</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740560989405</updated>
+    </task>
+    <task id="LOCAL-00019" summary="✅ 튜플과 for문">
+      <option name="closed" value="true" />
+      <created>1740562055422</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740562055422</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +309,9 @@
     <MESSAGE value="홈페이지 만들어보기" />
     <MESSAGE value="홈페이지 만들어보기 2번째" />
     <MESSAGE value="홈페이지 만들기 2/25 오늘은 여기까지!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="홈페이지 만들기 2/25 오늘은 여기까지!!!" />
+    <MESSAGE value="✅ 튜플 (Tuple)" />
+    <MESSAGE value="✅ 튜플과 for문" />
+    <MESSAGE value="✅ 텍스트 파일 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="✅ 텍스트 파일 수정" />
   </component>
 </project>

@@ -1,2 +1,12 @@
 Ctrl + Alt + L → 자동 코드 포맷팅
 Alt + Shift + Enter → 문장 자동 정렬
+git push origin main --force → 강제 푸시
+Ctrl + D → 현재 줄 복사
+Ctrl + Y → 현재 줄 삭제
+Shift + F6 → 리팩토링(변수명, 함수명 등 변경)
+Ctrl + Shift + F10 → 현재 파일 실행
+Ctrl + Shift + A → 모든 액션 검색 및 실행
+Ctrl + E → 최근에 열었던 파일 목록 보기
+Ctrl + B → 선언으로 이동 (함수, 변수 등)
+Ctrl + / → 한 줄 주석 토글
+Ctrl + Shift + / → 블록 주석 토글
