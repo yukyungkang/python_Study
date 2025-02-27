@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e50c56e-725a-440d-b799-0588a88be205" name="변경" comment="✅ HTML 수정">
+      <change afterPath="$PROJECT_DIR$/docs/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/navloder.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tuple&amp;dictionary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tuple_dictionary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tuple_dictionary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tuple_dictionary.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740648359378</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="✅ HTML 수정">
+      <option name="closed" value="true" />
+      <created>1740648666402</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740648666402</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
