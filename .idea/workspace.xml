@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e50c56e-725a-440d-b799-0588a88be205" name="변경" comment="✅ 텍스트 파일 수정">
-      <change beforePath="$PROJECT_DIR$/Study_01/tuple&amp;dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/tuple&amp;dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use.txt" beforeDir="false" afterPath="$PROJECT_DIR$/use.txt" afterDir="false" />
+    <list default="true" id="2e50c56e-725a-440d-b799-0588a88be205" name="변경" comment="✅ 파일 수정">
+      <change afterPath="$PROJECT_DIR$/docs/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study_01/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study_01/for.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study_01/for.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +60,7 @@
     "Python.tuple&dictionary.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main 병합 중",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/yukyung.kang/python_Study/docs",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
@@ -66,6 +70,7 @@
       <recent name="$PROJECT_DIR$/docs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -283,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740562055422</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="✅ 파일 수정">
+      <option name="closed" value="true" />
+      <created>1740645016569</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1740645016569</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,6 +325,7 @@
     <MESSAGE value="✅ 튜플 (Tuple)" />
     <MESSAGE value="✅ 튜플과 for문" />
     <MESSAGE value="✅ 텍스트 파일 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="✅ 텍스트 파일 수정" />
+    <MESSAGE value="✅ 파일 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="✅ 파일 수정" />
   </component>
 </project>
