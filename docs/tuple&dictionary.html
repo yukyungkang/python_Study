@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>패킹과 언패킹 개념 정리</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 5px;
+            border-radius: 5px;
+            display: block;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Python Study</div>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <div class="menu-container">
+            <div class="menu">
+                <a href="basic.html">기본</a>
+                <a href="list.html">리스트</a>
+                <a href="tuple_dictionary.html">튜플&딕셔너리</a> <!-- 파일명 수정 -->
+            </div>
+        </div>
+    </nav>
+    <h1>🐍 패킹(Packing)과 언패킹(Unpacking) 개념 정리</h1>
+
+    <h2>1️⃣ 패킹(Packing)</h2>
+    <p>패킹이란 여러 개의 값을 하나의 튜플로 묶는 과정입니다.</p>
+    <code>
+    # 여러 개의 데이터를 하나의 튜플로 묶음 (패킹)
+    my_tuple = 3.14, 'Python', False  # 소괄호 생략 가능
+    print(my_tuple)  # 출력: (3.14, 'Python', False)
+    </code>
+
+    <h2>2️⃣ 언패킹(Unpacking)</h2>
+    <p>언패킹이란 튜플의 값을 개별 변수에 할당하는 과정입니다.</p>
+    <code>
+    # 튜플의 각 요소를 개별 변수에 할당 (언패킹)
+    i, s, b = (123, 'abc', True)
+    print(i)  # 출력: 123
+    print(s)  # 출력: abc
+    print(b)  # 출력: True
+    </code>
+
+    <h2>3️⃣ 패킹과 언패킹을 활용한 실용적인 예제</h2>
+    <h3>🎨 RGB 색상 값 패킹 & 언패킹</h3>
+    <p>튜플을 이용해 RGB 색상 값을 저장하고 개별 변수로 분해할 수 있습니다.</p>
+    <code>
+    sky_blue = (135, 206, 235)  # 하늘색(RGB) 값을 튜플로 저장 (Packing)
+    r, g, b = sky_blue  # 튜플의 값을 각각의 변수로 할당 (Unpacking)
+    print('Red:', r, 'Green:', g, 'Blue:', b)  # 출력: Red: 135 Green: 206 Blue: 235
+    </code>
+
+    <h3>🏷️ 제품 정보 반환 (Packing & Unpacking 활용)</h3>
+    <p>함수에서 여러 개의 값을 반환할 때 유용하게 사용할 수 있습니다.</p>
+    <code>
+    def get_product():
+        return "Wireless Mouse", 29.99, "Electronics"  # 튜플 형태로 여러 값 반환
+
+    product_name, price, category = get_product()  # 언패킹하여 변수에 저장
+    print(product_name)  # 출력: Wireless Mouse
+    print(price)  # 출력: 29.99
+    print(category)  # 출력: Electronics
+    </code>
+
+    <h3>🍬 사탕 교환 (Packing & Unpacking 활용)</h3>
+    <p>두 변수의 값을 교환하는 예제입니다.</p>
+    <code>
+    dodo = '박하맛'
+    alice = '딸기맛'
+    print('도도새:', dodo, '앨리스:', alice)
+
+    # 패킹과 언패킹을 이용한 값 교환
+    dodo, alice = alice, dodo
+
+    print('도도새:', dodo, '앨리스:', alice)
+    # 출력:
+    # 도도새: 딸기맛 앨리스: 박하맛
+    </code>
+</body>
+</html>
