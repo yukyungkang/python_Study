@@ -1,3 +1,24 @@
+# 🎯 논리형(Boolean)과 비교 연산자
+# - 논리형(Boolean)은 `True`(참) 또는 `False`(거짓) 두 가지 값만 가진다.
+# - 논리형은 비교 연산의 결과로 주로 사용된다.
+# - `True`와 `False`는 파이썬의 키워드이므로 첫 글자는 반드시 대문자로 작성해야 한다.
+
+# ✅ 논리형 값 저장
+my_bool1 = True  # 🔹 참(True) 값 저장
+my_bool2 = False  # 🔹 거짓(False) 값 저장
+
+print(my_bool1)  # ✅ 출력: True
+print(my_bool2)  # ✅ 출력: False
+
+# 📌 비교 연산자 (Comparison Operators)
+# - 두 값을 비교하여 `True` 또는 `False` 값을 반환한다.
+
+my_bool3 = (1 > 2)  # ❌ False (1은 2보다 크지 않음)
+print(my_bool3)
+
+my_bool4 = (1 != 2)  # ✅ True (1과 2는 다름)
+print(my_bool4)
+
 # if 기본 구조
 if True:  # if 조건: 조건이 참이면 들어가고 거짓이면 넘어 간다
     print('참입니다.')  # 실행할 명령
